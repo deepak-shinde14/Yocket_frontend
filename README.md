@@ -21,5 +21,5 @@ A game where players help three cops capture a fugitive hiding in one of five ci
 2. Install dependencies for both client and server:
 
 ```bash
-cd client && npm install
-cd ../server && npm install
+cd frontend && npm install
+cd ../backend && npm install
