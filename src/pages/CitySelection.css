@@ -1,0 +1,23 @@
+.city-selection {
+  padding: 20px;
+}
+
+.cops-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.cop-selection {
+  background-color: #0f3460;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.city-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}

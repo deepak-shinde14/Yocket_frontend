@@ -1,0 +1,23 @@
+.landing-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.landing-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+.landing-container p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.landing-container button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+}

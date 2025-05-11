@@ -1,0 +1,43 @@
+.vehicle-card {
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 180px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #16213e;
+}
+
+.vehicle-card:hover:not(.disabled) {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.vehicle-card.selected {
+  border: 2px solid #4CAF50;
+  background-color: #0f3460;
+}
+
+.vehicle-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.vehicle-card h3 {
+  margin-top: 0;
+  color: #f8f8f8;
+}
+
+.vehicle-card p {
+  margin: 5px 0;
+  color: #b8b8b8;
+}
+
+.sufficient {
+  color: #4CAF50;
+}
+
+.insufficient {
+  color: #f44336;
+}
